@@ -21,5 +21,15 @@ namespace Gestion_Avanzada_de_Informacion_Personal
         {
             this.Close();
         }
+
+        private void tb_Valoracion_Scroll(object sender, EventArgs e)
+        {
+            nUDValoracion.Value = tb_Valoracion.Value;
+        }
+
+        private void nUDValoracion_ValueChanged(object sender, EventArgs e)
+        {
+            tb_Valoracion.Value = (int)nUDValoracion.Value;
+        }
     }
 }
