@@ -147,6 +147,435 @@
   <data name="&gt;&gt;tpDatosPersonales.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="nUDValoracion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 101</value>
+  </data>
+  <data name="nUDValoracion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="nUDValoracion.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nUDValoracion.Name" xml:space="preserve">
+    <value>nUDValoracion</value>
+  </data>
+  <data name="&gt;&gt;nUDValoracion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nUDValoracion.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;nUDValoracion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSatisfaccion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSatisfaccion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblSatisfaccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSatisfaccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 52</value>
+  </data>
+  <data name="lblSatisfaccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="lblSatisfaccion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblSatisfaccion.Text" xml:space="preserve">
+    <value>Valoranos del 1 al 10</value>
+  </data>
+  <data name="&gt;&gt;lblSatisfaccion.Name" xml:space="preserve">
+    <value>lblSatisfaccion</value>
+  </data>
+  <data name="&gt;&gt;lblSatisfaccion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSatisfaccion.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;lblSatisfaccion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tb_Valoracion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 88</value>
+  </data>
+  <data name="tb_Valoracion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 56</value>
+  </data>
+  <data name="tb_Valoracion.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tb_Valoracion.Name" xml:space="preserve">
+    <value>tb_Valoracion</value>
+  </data>
+  <data name="&gt;&gt;tb_Valoracion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_Valoracion.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;tb_Valoracion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPais.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblPais.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 52</value>
+  </data>
+  <data name="lblPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 21</value>
+  </data>
+  <data name="lblPais.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblPais.Text" xml:space="preserve">
+    <value>Elija su país de residencia</value>
+  </data>
+  <data name="&gt;&gt;lblPais.Name" xml:space="preserve">
+    <value>lblPais</value>
+  </data>
+  <data name="&gt;&gt;lblPais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPais.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;lblPais.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbPais.Items" xml:space="preserve">
+    <value>Afganistán</value>
+  </data>
+  <data name="cbPais.Items1" xml:space="preserve">
+    <value>Albania</value>
+  </data>
+  <data name="cbPais.Items2" xml:space="preserve">
+    <value>Alemania</value>
+  </data>
+  <data name="cbPais.Items3" xml:space="preserve">
+    <value>Andorra</value>
+  </data>
+  <data name="cbPais.Items4" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+  <data name="cbPais.Items5" xml:space="preserve">
+    <value>Antigua y Barbuda</value>
+  </data>
+  <data name="cbPais.Items6" xml:space="preserve">
+    <value>Arabia Saudita</value>
+  </data>
+  <data name="cbPais.Items7" xml:space="preserve">
+    <value>Argelia</value>
+  </data>
+  <data name="cbPais.Items8" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+  <data name="cbPais.Items9" xml:space="preserve">
+    <value>Armenia</value>
+  </data>
+  <data name="cbPais.Items10" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="cbPais.Items11" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+  <data name="cbPais.Items12" xml:space="preserve">
+    <value>Azerbaiyán</value>
+  </data>
+  <data name="cbPais.Items13" xml:space="preserve">
+    <value>Bahamas</value>
+  </data>
+  <data name="cbPais.Items14" xml:space="preserve">
+    <value>Bangladés</value>
+  </data>
+  <data name="cbPais.Items15" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+  <data name="cbPais.Items16" xml:space="preserve">
+    <value>Baréin</value>
+  </data>
+  <data name="cbPais.Items17" xml:space="preserve">
+    <value>Bélgica</value>
+  </data>
+  <data name="cbPais.Items18" xml:space="preserve">
+    <value>Belice</value>
+  </data>
+  <data name="cbPais.Items19" xml:space="preserve">
+    <value>Benín</value>
+  </data>
+  <data name="cbPais.Items20" xml:space="preserve">
+    <value>Bielorrusia</value>
+  </data>
+  <data name="cbPais.Items21" xml:space="preserve">
+    <value>Birmania (Myanmar)</value>
+  </data>
+  <data name="cbPais.Items22" xml:space="preserve">
+    <value>Bolivia</value>
+  </data>
+  <data name="cbPais.Items23" xml:space="preserve">
+    <value>Bosnia y Herzegovina</value>
+  </data>
+  <data name="cbPais.Items24" xml:space="preserve">
+    <value>Botsuana</value>
+  </data>
+  <data name="cbPais.Items25" xml:space="preserve">
+    <value>Brasil</value>
+  </data>
+  <data name="cbPais.Items26" xml:space="preserve">
+    <value>Brunéi</value>
+  </data>
+  <data name="cbPais.Items27" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+  <data name="cbPais.Items28" xml:space="preserve">
+    <value>Burkina Faso</value>
+  </data>
+  <data name="cbPais.Items29" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+  <data name="cbPais.Items30" xml:space="preserve">
+    <value>Cabo Verde</value>
+  </data>
+  <data name="cbPais.Items31" xml:space="preserve">
+    <value>Camboya</value>
+  </data>
+  <data name="cbPais.Items32" xml:space="preserve">
+    <value>Camerún</value>
+  </data>
+  <data name="cbPais.Items33" xml:space="preserve">
+    <value>Canadá</value>
+  </data>
+  <data name="cbPais.Items34" xml:space="preserve">
+    <value>Catar</value>
+  </data>
+  <data name="cbPais.Items35" xml:space="preserve">
+    <value>Chad</value>
+  </data>
+  <data name="cbPais.Items36" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="cbPais.Items37" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="cbPais.Items38" xml:space="preserve">
+    <value>Chipre</value>
+  </data>
+  <data name="cbPais.Items39" xml:space="preserve">
+    <value>Colombia</value>
+  </data>
+  <data name="cbPais.Items40" xml:space="preserve">
+    <value>Comoras</value>
+  </data>
+  <data name="cbPais.Items41" xml:space="preserve">
+    <value>Corea del Norte</value>
+  </data>
+  <data name="cbPais.Items42" xml:space="preserve">
+    <value>Corea del Sur</value>
+  </data>
+  <data name="cbPais.Items43" xml:space="preserve">
+    <value>Costa de Marfil</value>
+  </data>
+  <data name="cbPais.Items44" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+  <data name="cbPais.Items45" xml:space="preserve">
+    <value>Croacia</value>
+  </data>
+  <data name="cbPais.Items46" xml:space="preserve">
+    <value>Cuba</value>
+  </data>
+  <data name="cbPais.Items47" xml:space="preserve">
+    <value>Dinamarca</value>
+  </data>
+  <data name="cbPais.Items48" xml:space="preserve">
+    <value>Dominica</value>
+  </data>
+  <data name="cbPais.Items49" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+  <data name="cbPais.Items50" xml:space="preserve">
+    <value>Egipto</value>
+  </data>
+  <data name="cbPais.Items51" xml:space="preserve">
+    <value>El Salvador</value>
+  </data>
+  <data name="cbPais.Items52" xml:space="preserve">
+    <value>Emiratos Árabes Unidos</value>
+  </data>
+  <data name="cbPais.Items53" xml:space="preserve">
+    <value>Eritrea</value>
+  </data>
+  <data name="cbPais.Items54" xml:space="preserve">
+    <value>Eslovaquia</value>
+  </data>
+  <data name="cbPais.Items55" xml:space="preserve">
+    <value>Eslovenia</value>
+  </data>
+  <data name="cbPais.Items56" xml:space="preserve">
+    <value>España</value>
+  </data>
+  <data name="cbPais.Items57" xml:space="preserve">
+    <value>Estados Unidos</value>
+  </data>
+  <data name="cbPais.Items58" xml:space="preserve">
+    <value>Estonia</value>
+  </data>
+  <data name="cbPais.Items59" xml:space="preserve">
+    <value>Esuatini (Suazilandia)</value>
+  </data>
+  <data name="cbPais.Items60" xml:space="preserve">
+    <value>Etiopía</value>
+  </data>
+  <data name="cbPais.Items61" xml:space="preserve">
+    <value>Filipinas</value>
+  </data>
+  <data name="cbPais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 88</value>
+  </data>
+  <data name="cbPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 24</value>
+  </data>
+  <data name="cbPais.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbPais.Name" xml:space="preserve">
+    <value>cbPais</value>
+  </data>
+  <data name="&gt;&gt;cbPais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbPais.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;cbPais.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblHobbies.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHobbies.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblHobbies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 52</value>
+  </data>
+  <data name="lblHobbies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="lblHobbies.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblHobbies.Text" xml:space="preserve">
+    <value>HOBBIES O INTERESES</value>
+  </data>
+  <data name="&gt;&gt;lblHobbies.Name" xml:space="preserve">
+    <value>lblHobbies</value>
+  </data>
+  <data name="&gt;&gt;lblHobbies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHobbies.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;lblHobbies.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chlistHobbies.Items" xml:space="preserve">
+    <value>Lectura</value>
+  </data>
+  <data name="chlistHobbies.Items1" xml:space="preserve">
+    <value>Viajar</value>
+  </data>
+  <data name="chlistHobbies.Items2" xml:space="preserve">
+    <value>Cocina</value>
+  </data>
+  <data name="chlistHobbies.Items3" xml:space="preserve">
+    <value>Fútbol</value>
+  </data>
+  <data name="chlistHobbies.Items4" xml:space="preserve">
+    <value>Baloncesto</value>
+  </data>
+  <data name="chlistHobbies.Items5" xml:space="preserve">
+    <value>Ciclismo</value>
+  </data>
+  <data name="chlistHobbies.Items6" xml:space="preserve">
+    <value>Cine y Series</value>
+  </data>
+  <data name="chlistHobbies.Items7" xml:space="preserve">
+    <value>Fotografía</value>
+  </data>
+  <data name="chlistHobbies.Items8" xml:space="preserve">
+    <value>Pintura</value>
+  </data>
+  <data name="chlistHobbies.Items9" xml:space="preserve">
+    <value>Dibujo</value>
+  </data>
+  <data name="chlistHobbies.Items10" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="chlistHobbies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 88</value>
+  </data>
+  <data name="chlistHobbies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 191</value>
+  </data>
+  <data name="chlistHobbies.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chlistHobbies.Name" xml:space="preserve">
+    <value>chlistHobbies</value>
+  </data>
+  <data name="&gt;&gt;chlistHobbies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chlistHobbies.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;chlistHobbies.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chBoletin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chBoletin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="chBoletin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 351</value>
+  </data>
+  <data name="chBoletin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="chBoletin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chBoletin.Text" xml:space="preserve">
+    <value>¿Subscribirse al boletín?</value>
+  </data>
+  <data name="&gt;&gt;chBoletin.Name" xml:space="preserve">
+    <value>chBoletin</value>
+  </data>
+  <data name="&gt;&gt;chBoletin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chBoletin.Parent" xml:space="preserve">
+    <value>tpPreferencias</value>
+  </data>
+  <data name="&gt;&gt;chBoletin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="tpPreferencias.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
   </data>
@@ -154,7 +583,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tpPreferencias.Size" type="System.Drawing.Size, System.Drawing">
-    <value>789, 340</value>
+    <value>1008, 450</value>
   </data>
   <data name="tpPreferencias.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -173,6 +602,30 @@
   </data>
   <data name="&gt;&gt;tpPreferencias.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="tpVisualizacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tpVisualizacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 450</value>
+  </data>
+  <data name="tpVisualizacion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpVisualizacion.Text" xml:space="preserve">
+    <value>Visualizacion</value>
+  </data>
+  <data name="&gt;&gt;tpVisualizacion.Name" xml:space="preserve">
+    <value>tpVisualizacion</value>
+  </data>
+  <data name="&gt;&gt;tpVisualizacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpVisualizacion.Parent" xml:space="preserve">
+    <value>tcMatriz</value>
+  </data>
+  <data name="&gt;&gt;tpVisualizacion.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="tcMatriz.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 3</value>
