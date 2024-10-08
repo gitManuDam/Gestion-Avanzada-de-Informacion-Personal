@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Gestion_Avanzada_de_Informacion_Personal
 {
-    public partial class Form1 : Form
+    public partial class formBase : Form
     {
-        public Form1()
+        public formBase()
         {
             InitializeComponent();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

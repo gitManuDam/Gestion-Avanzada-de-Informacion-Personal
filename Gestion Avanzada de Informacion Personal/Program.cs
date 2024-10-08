@@ -16,7 +16,7 @@ namespace Gestion_Avanzada_de_Informacion_Personal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new formBase());
         }
     }
 }
