@@ -117,18 +117,426 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblEdad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblEdad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblEdad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 182</value>
+  </data>
+  <data name="lblEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="lblEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblEdad.Text" xml:space="preserve">
+    <value>EDAD</value>
+  </data>
+  <data name="&gt;&gt;lblEdad.Name" xml:space="preserve">
+    <value>lblEdad</value>
+  </data>
+  <data name="&gt;&gt;lblEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEdad.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblEdad.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 185</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNacimiento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNacimiento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblNacimiento.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNacimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 242</value>
+  </data>
+  <data name="lblNacimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 21</value>
+  </data>
+  <data name="lblNacimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblNacimiento.Text" xml:space="preserve">
+    <value>FECHA DE NACIMIENTO</value>
+  </data>
+  <data name="&gt;&gt;lblNacimiento.Name" xml:space="preserve">
+    <value>lblNacimiento</value>
+  </data>
+  <data name="&gt;&gt;lblNacimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNacimiento.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblNacimiento.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mcNacimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 234</value>
+  </data>
+  <data name="mcNacimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mcNacimiento.Name" xml:space="preserve">
+    <value>mcNacimiento</value>
+  </data>
+  <data name="&gt;&gt;mcNacimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mcNacimiento.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;mcNacimiento.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblGenero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGenero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblGenero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 56</value>
+  </data>
+  <data name="lblGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="lblGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblGenero.Text" xml:space="preserve">
+    <value>GENERO</value>
+  </data>
+  <data name="&gt;&gt;lblGenero.Name" xml:space="preserve">
+    <value>lblGenero</value>
+  </data>
+  <data name="&gt;&gt;lblGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGenero.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblGenero.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbOtro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbOtro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7.8pt</value>
+  </data>
+  <data name="rbOtro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 55</value>
+  </data>
+  <data name="rbOtro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="rbOtro.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbOtro.Text" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="&gt;&gt;rbOtro.Name" xml:space="preserve">
+    <value>rbOtro</value>
+  </data>
+  <data name="&gt;&gt;rbOtro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOtro.Parent" xml:space="preserve">
+    <value>pnGenero</value>
+  </data>
+  <data name="&gt;&gt;rbOtro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbFemenino.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbFemenino.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7.8pt</value>
+  </data>
+  <data name="rbFemenino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 29</value>
+  </data>
+  <data name="rbFemenino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="rbFemenino.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbFemenino.Text" xml:space="preserve">
+    <value>Femenino</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Name" xml:space="preserve">
+    <value>rbFemenino</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Parent" xml:space="preserve">
+    <value>pnGenero</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbMasculino.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbMasculino.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 7.8pt</value>
+  </data>
+  <data name="rbMasculino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 3</value>
+  </data>
+  <data name="rbMasculino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="rbMasculino.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbMasculino.Text" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="&gt;&gt;rbMasculino.Name" xml:space="preserve">
+    <value>rbMasculino</value>
+  </data>
+  <data name="&gt;&gt;rbMasculino.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbMasculino.Parent" xml:space="preserve">
+    <value>pnGenero</value>
+  </data>
+  <data name="&gt;&gt;rbMasculino.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 56</value>
+  </data>
+  <data name="pnGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 81</value>
+  </data>
+  <data name="pnGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnGenero.Name" xml:space="preserve">
+    <value>pnGenero</value>
+  </data>
+  <data name="&gt;&gt;pnGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnGenero.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;pnGenero.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtCorreo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 184</value>
+  </data>
+  <data name="txtCorreo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="txtCorreo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtCorreo.Name" xml:space="preserve">
+    <value>txtCorreo</value>
+  </data>
+  <data name="&gt;&gt;txtCorreo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCorreo.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;txtCorreo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtDireccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 125</value>
+  </data>
+  <data name="txtDireccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="txtDireccion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtDireccion.Name" xml:space="preserve">
+    <value>txtDireccion</value>
+  </data>
+  <data name="&gt;&gt;txtDireccion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDireccion.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;txtDireccion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 56</value>
+  </data>
+  <data name="txtNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="txtNombre.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtNombre.Name" xml:space="preserve">
+    <value>txtNombre</value>
+  </data>
+  <data name="&gt;&gt;txtNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNombre.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;txtNombre.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCorreo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCorreo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblCorreo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCorreo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 185</value>
+  </data>
+  <data name="lblCorreo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="lblCorreo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblCorreo.Text" xml:space="preserve">
+    <value>CORREO ELECTRÓNICO</value>
+  </data>
+  <data name="&gt;&gt;lblCorreo.Name" xml:space="preserve">
+    <value>lblCorreo</value>
+  </data>
+  <data name="&gt;&gt;lblCorreo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCorreo.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblCorreo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblDireccion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDireccion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblDireccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDireccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 126</value>
+  </data>
+  <data name="lblDireccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="lblDireccion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDireccion.Text" xml:space="preserve">
+    <value>DIRECCION</value>
+  </data>
+  <data name="&gt;&gt;lblDireccion.Name" xml:space="preserve">
+    <value>lblDireccion</value>
+  </data>
+  <data name="&gt;&gt;lblDireccion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDireccion.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblDireccion.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNombre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 56</value>
+  </data>
+  <data name="lblNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="lblNombre.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNombre.Text" xml:space="preserve">
+    <value>NOMBRE</value>
+  </data>
+  <data name="&gt;&gt;lblNombre.Name" xml:space="preserve">
+    <value>lblNombre</value>
+  </data>
+  <data name="&gt;&gt;lblNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNombre.Parent" xml:space="preserve">
+    <value>tpDatosPersonales</value>
+  </data>
+  <data name="&gt;&gt;lblNombre.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="tpDatosPersonales.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tpDatosPersonales.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tpDatosPersonales.Size" type="System.Drawing.Size, System.Drawing">
     <value>1008, 450</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tpDatosPersonales.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
