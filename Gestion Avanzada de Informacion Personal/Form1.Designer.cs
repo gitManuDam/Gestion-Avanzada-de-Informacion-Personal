@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formBase));
             this.tcMatriz = new System.Windows.Forms.TabControl();
             this.tpDatosPersonales = new System.Windows.Forms.TabPage();
@@ -59,13 +60,19 @@
             this.lblNacimiento = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.lblEdad = new System.Windows.Forms.Label();
+            this.pbImage = new System.Windows.Forms.PictureBox();
+            this.tmrHora = new System.Windows.Forms.Timer(this.components);
+            this.lblHora = new System.Windows.Forms.Label();
+            this.ttAyuda = new System.Windows.Forms.ToolTip(this.components);
             this.tcMatriz.SuspendLayout();
             this.tpDatosPersonales.SuspendLayout();
             this.tpPreferencias.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).BeginInit();
+            this.tpVisualizacion.SuspendLayout();
             this.pnGenero.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.SuspendLayout();
             // 
             // tcMatriz
@@ -115,6 +122,7 @@
             resources.ApplyResources(this.btnGuardar, "btnGuardar");
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnLimpiar
             // 
@@ -259,6 +267,8 @@
             // 
             // tpVisualizacion
             // 
+            this.tpVisualizacion.Controls.Add(this.lblHora);
+            this.tpVisualizacion.Controls.Add(this.pbImage);
             resources.ApplyResources(this.tpVisualizacion, "tpVisualizacion");
             this.tpVisualizacion.Name = "tpVisualizacion";
             this.tpVisualizacion.UseVisualStyleBackColor = true;
@@ -352,6 +362,23 @@
             resources.ApplyResources(this.lblEdad, "lblEdad");
             this.lblEdad.Name = "lblEdad";
             // 
+            // pbImage
+            // 
+            resources.ApplyResources(this.pbImage, "pbImage");
+            this.pbImage.Name = "pbImage";
+            this.pbImage.TabStop = false;
+            // 
+            // tmrHora
+            // 
+            this.tmrHora.Enabled = true;
+            this.tmrHora.Interval = 1000;
+            this.tmrHora.Tick += new System.EventHandler(this.tmrHora_Tick);
+            // 
+            // lblHora
+            // 
+            resources.ApplyResources(this.lblHora, "lblHora");
+            this.lblHora.Name = "lblHora";
+            // 
             // formBase
             // 
             resources.ApplyResources(this, "$this");
@@ -363,6 +390,7 @@
             this.Controls.Add(this.tcMatriz);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formBase";
+            this.Load += new System.EventHandler(this.formBase_Load);
             this.tcMatriz.ResumeLayout(false);
             this.tpDatosPersonales.ResumeLayout(false);
             this.tpDatosPersonales.PerformLayout();
@@ -370,9 +398,12 @@
             this.tpPreferencias.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).EndInit();
+            this.tpVisualizacion.ResumeLayout(false);
+            this.tpVisualizacion.PerformLayout();
             this.pnGenero.ResumeLayout(false);
             this.pnGenero.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -409,6 +440,10 @@
         private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label lblEdad;
+        private System.Windows.Forms.PictureBox pbImage;
+        private System.Windows.Forms.Timer tmrHora;
+        private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.ToolTip ttAyuda;
     }
 }
 

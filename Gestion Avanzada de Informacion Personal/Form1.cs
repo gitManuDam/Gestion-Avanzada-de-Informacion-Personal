@@ -17,6 +17,7 @@ namespace Gestion_Avanzada_de_Informacion_Personal
             InitializeComponent();
         }
 
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -30,6 +31,41 @@ namespace Gestion_Avanzada_de_Informacion_Personal
         private void nUDValoracion_ValueChanged(object sender, EventArgs e)
         {
             tb_Valoracion.Value = (int)nUDValoracion.Value;
+        }
+
+        private void tmrHora_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = System.DateTime.Now.ToString("HH:mm:ss");
+        }
+
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void formBase_Load(object sender, EventArgs e)
+        {
+            this.ttAyuda.SetToolTip(this.btnGuardar, "Muestra los datos almacenados en el formulario");
+            this.ttAyuda.SetToolTip(this.btnLimpiar, "Borra todos los datos en el formulario");
+            this.ttAyuda.SetToolTip(this.btnSalir, "Cierra el formulario");
+            if (buscaEspaña() != -1)
+            {
+                cbPais.SelectedIndex=buscaEspaña();
+            }
+
+            
+        }
+        private int buscaEspaña()
+        {
+            for (int cont = 0; cont < cbPais.Items.Count; cont++)
+            {
+                if (cbPais.Items[cont].ToString() == "España")
+                {
+                    return cont; 
+                }
+            }
+            return -1;
         }
     }
 }
