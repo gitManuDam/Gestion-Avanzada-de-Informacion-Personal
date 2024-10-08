@@ -44,10 +44,28 @@
             this.lblSatisfaccion = new System.Windows.Forms.Label();
             this.nUDValoracion = new System.Windows.Forms.NumericUpDown();
             this.tpVisualizacion = new System.Windows.Forms.TabPage();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.pnGenero = new System.Windows.Forms.Panel();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.rbFemenino = new System.Windows.Forms.RadioButton();
+            this.rbOtro = new System.Windows.Forms.RadioButton();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.mcNacimiento = new System.Windows.Forms.MonthCalendar();
+            this.lblNacimiento = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.lblEdad = new System.Windows.Forms.Label();
             this.tcMatriz.SuspendLayout();
+            this.tpDatosPersonales.SuspendLayout();
             this.tpPreferencias.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).BeginInit();
+            this.pnGenero.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // tcMatriz
@@ -62,6 +80,18 @@
             // 
             // tpDatosPersonales
             // 
+            this.tpDatosPersonales.Controls.Add(this.lblEdad);
+            this.tpDatosPersonales.Controls.Add(this.numericUpDown1);
+            this.tpDatosPersonales.Controls.Add(this.lblNacimiento);
+            this.tpDatosPersonales.Controls.Add(this.mcNacimiento);
+            this.tpDatosPersonales.Controls.Add(this.lblGenero);
+            this.tpDatosPersonales.Controls.Add(this.pnGenero);
+            this.tpDatosPersonales.Controls.Add(this.txtCorreo);
+            this.tpDatosPersonales.Controls.Add(this.txtDireccion);
+            this.tpDatosPersonales.Controls.Add(this.txtNombre);
+            this.tpDatosPersonales.Controls.Add(this.lblCorreo);
+            this.tpDatosPersonales.Controls.Add(this.lblDireccion);
+            this.tpDatosPersonales.Controls.Add(this.lblNombre);
             resources.ApplyResources(this.tpDatosPersonales, "tpDatosPersonales");
             this.tpDatosPersonales.Name = "tpDatosPersonales";
             this.tpDatosPersonales.UseVisualStyleBackColor = true;
@@ -233,6 +263,95 @@
             this.tpVisualizacion.Name = "tpVisualizacion";
             this.tpVisualizacion.UseVisualStyleBackColor = true;
             // 
+            // lblNombre
+            // 
+            resources.ApplyResources(this.lblNombre, "lblNombre");
+            this.lblNombre.Name = "lblNombre";
+            // 
+            // lblDireccion
+            // 
+            resources.ApplyResources(this.lblDireccion, "lblDireccion");
+            this.lblDireccion.Name = "lblDireccion";
+            // 
+            // lblCorreo
+            // 
+            resources.ApplyResources(this.lblCorreo, "lblCorreo");
+            this.lblCorreo.Name = "lblCorreo";
+            // 
+            // txtNombre
+            // 
+            resources.ApplyResources(this.txtNombre, "txtNombre");
+            this.txtNombre.Name = "txtNombre";
+            // 
+            // txtDireccion
+            // 
+            resources.ApplyResources(this.txtDireccion, "txtDireccion");
+            this.txtDireccion.Name = "txtDireccion";
+            // 
+            // txtCorreo
+            // 
+            resources.ApplyResources(this.txtCorreo, "txtCorreo");
+            this.txtCorreo.Name = "txtCorreo";
+            // 
+            // pnGenero
+            // 
+            this.pnGenero.Controls.Add(this.rbOtro);
+            this.pnGenero.Controls.Add(this.rbFemenino);
+            this.pnGenero.Controls.Add(this.rbMasculino);
+            resources.ApplyResources(this.pnGenero, "pnGenero");
+            this.pnGenero.Name = "pnGenero";
+            // 
+            // rbMasculino
+            // 
+            resources.ApplyResources(this.rbMasculino, "rbMasculino");
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.TabStop = true;
+            this.rbMasculino.UseVisualStyleBackColor = true;
+            // 
+            // rbFemenino
+            // 
+            resources.ApplyResources(this.rbFemenino, "rbFemenino");
+            this.rbFemenino.Name = "rbFemenino";
+            this.rbFemenino.TabStop = true;
+            this.rbFemenino.UseVisualStyleBackColor = true;
+            // 
+            // rbOtro
+            // 
+            resources.ApplyResources(this.rbOtro, "rbOtro");
+            this.rbOtro.Name = "rbOtro";
+            this.rbOtro.TabStop = true;
+            this.rbOtro.UseVisualStyleBackColor = true;
+            // 
+            // lblGenero
+            // 
+            resources.ApplyResources(this.lblGenero, "lblGenero");
+            this.lblGenero.Name = "lblGenero";
+            // 
+            // mcNacimiento
+            // 
+            resources.ApplyResources(this.mcNacimiento, "mcNacimiento");
+            this.mcNacimiento.Name = "mcNacimiento";
+            // 
+            // lblNacimiento
+            // 
+            resources.ApplyResources(this.lblNacimiento, "lblNacimiento");
+            this.lblNacimiento.Name = "lblNacimiento";
+            // 
+            // numericUpDown1
+            // 
+            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            150,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            // 
+            // lblEdad
+            // 
+            resources.ApplyResources(this.lblEdad, "lblEdad");
+            this.lblEdad.Name = "lblEdad";
+            // 
             // formBase
             // 
             resources.ApplyResources(this, "$this");
@@ -245,10 +364,15 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formBase";
             this.tcMatriz.ResumeLayout(false);
+            this.tpDatosPersonales.ResumeLayout(false);
+            this.tpDatosPersonales.PerformLayout();
             this.tpPreferencias.ResumeLayout(false);
             this.tpPreferencias.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).EndInit();
+            this.pnGenero.ResumeLayout(false);
+            this.pnGenero.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -270,6 +394,21 @@
         private System.Windows.Forms.TrackBar tb_Valoracion;
         private System.Windows.Forms.NumericUpDown nUDValoracion;
         private System.Windows.Forms.TabPage tpVisualizacion;
+        private System.Windows.Forms.Label lblCorreo;
+        private System.Windows.Forms.Label lblDireccion;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.Panel pnGenero;
+        private System.Windows.Forms.RadioButton rbOtro;
+        private System.Windows.Forms.RadioButton rbFemenino;
+        private System.Windows.Forms.RadioButton rbMasculino;
+        private System.Windows.Forms.Label lblNacimiento;
+        private System.Windows.Forms.MonthCalendar mcNacimiento;
+        private System.Windows.Forms.Label lblGenero;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label lblEdad;
     }
 }
 
