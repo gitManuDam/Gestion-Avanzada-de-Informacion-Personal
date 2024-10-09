@@ -32,46 +32,46 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formBase));
             this.tcMatriz = new System.Windows.Forms.TabControl();
             this.tpDatosPersonales = new System.Windows.Forms.TabPage();
+            this.lblEdad = new System.Windows.Forms.Label();
+            this.nUDedad = new System.Windows.Forms.NumericUpDown();
+            this.lblNacimiento = new System.Windows.Forms.Label();
+            this.mcNacimiento = new System.Windows.Forms.MonthCalendar();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.pnGenero = new System.Windows.Forms.Panel();
+            this.rbOtro = new System.Windows.Forms.RadioButton();
+            this.rbFemenino = new System.Windows.Forms.RadioButton();
+            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
             this.tpPreferencias = new System.Windows.Forms.TabPage();
+            this.nUDValoracion = new System.Windows.Forms.NumericUpDown();
+            this.lblSatisfaccion = new System.Windows.Forms.Label();
+            this.tb_Valoracion = new System.Windows.Forms.TrackBar();
+            this.lblPais = new System.Windows.Forms.Label();
+            this.cbPais = new System.Windows.Forms.ComboBox();
+            this.lblHobbies = new System.Windows.Forms.Label();
+            this.chlistHobbies = new System.Windows.Forms.CheckedListBox();
+            this.chBoletin = new System.Windows.Forms.CheckBox();
+            this.tpVisualizacion = new System.Windows.Forms.TabPage();
+            this.lblHora = new System.Windows.Forms.Label();
+            this.pbImage = new System.Windows.Forms.PictureBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.chBoletin = new System.Windows.Forms.CheckBox();
-            this.chlistHobbies = new System.Windows.Forms.CheckedListBox();
-            this.lblHobbies = new System.Windows.Forms.Label();
-            this.cbPais = new System.Windows.Forms.ComboBox();
-            this.lblPais = new System.Windows.Forms.Label();
-            this.tb_Valoracion = new System.Windows.Forms.TrackBar();
-            this.lblSatisfaccion = new System.Windows.Forms.Label();
-            this.nUDValoracion = new System.Windows.Forms.NumericUpDown();
-            this.tpVisualizacion = new System.Windows.Forms.TabPage();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.lblDireccion = new System.Windows.Forms.Label();
-            this.lblCorreo = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.pnGenero = new System.Windows.Forms.Panel();
-            this.rbMasculino = new System.Windows.Forms.RadioButton();
-            this.rbFemenino = new System.Windows.Forms.RadioButton();
-            this.rbOtro = new System.Windows.Forms.RadioButton();
-            this.lblGenero = new System.Windows.Forms.Label();
-            this.mcNacimiento = new System.Windows.Forms.MonthCalendar();
-            this.lblNacimiento = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.lblEdad = new System.Windows.Forms.Label();
-            this.pbImage = new System.Windows.Forms.PictureBox();
             this.tmrHora = new System.Windows.Forms.Timer(this.components);
-            this.lblHora = new System.Windows.Forms.Label();
             this.ttAyuda = new System.Windows.Forms.ToolTip(this.components);
             this.tcMatriz.SuspendLayout();
             this.tpDatosPersonales.SuspendLayout();
-            this.tpPreferencias.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).BeginInit();
-            this.tpVisualizacion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDedad)).BeginInit();
             this.pnGenero.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.tpPreferencias.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).BeginInit();
+            this.tpVisualizacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,7 +88,7 @@
             // tpDatosPersonales
             // 
             this.tpDatosPersonales.Controls.Add(this.lblEdad);
-            this.tpDatosPersonales.Controls.Add(this.numericUpDown1);
+            this.tpDatosPersonales.Controls.Add(this.nUDedad);
             this.tpDatosPersonales.Controls.Add(this.lblNacimiento);
             this.tpDatosPersonales.Controls.Add(this.mcNacimiento);
             this.tpDatosPersonales.Controls.Add(this.lblGenero);
@@ -102,6 +102,95 @@
             resources.ApplyResources(this.tpDatosPersonales, "tpDatosPersonales");
             this.tpDatosPersonales.Name = "tpDatosPersonales";
             this.tpDatosPersonales.UseVisualStyleBackColor = true;
+            // 
+            // lblEdad
+            // 
+            resources.ApplyResources(this.lblEdad, "lblEdad");
+            this.lblEdad.Name = "lblEdad";
+            // 
+            // nUDedad
+            // 
+            resources.ApplyResources(this.nUDedad, "nUDedad");
+            this.nUDedad.Maximum = new decimal(new int[] {
+            150,
+            0,
+            0,
+            0});
+            this.nUDedad.Name = "nUDedad";
+            // 
+            // lblNacimiento
+            // 
+            resources.ApplyResources(this.lblNacimiento, "lblNacimiento");
+            this.lblNacimiento.Name = "lblNacimiento";
+            // 
+            // mcNacimiento
+            // 
+            resources.ApplyResources(this.mcNacimiento, "mcNacimiento");
+            this.mcNacimiento.Name = "mcNacimiento";
+            // 
+            // lblGenero
+            // 
+            resources.ApplyResources(this.lblGenero, "lblGenero");
+            this.lblGenero.Name = "lblGenero";
+            // 
+            // pnGenero
+            // 
+            this.pnGenero.Controls.Add(this.rbOtro);
+            this.pnGenero.Controls.Add(this.rbFemenino);
+            this.pnGenero.Controls.Add(this.rbMasculino);
+            resources.ApplyResources(this.pnGenero, "pnGenero");
+            this.pnGenero.Name = "pnGenero";
+            // 
+            // rbOtro
+            // 
+            resources.ApplyResources(this.rbOtro, "rbOtro");
+            this.rbOtro.Name = "rbOtro";
+            this.rbOtro.TabStop = true;
+            this.rbOtro.UseVisualStyleBackColor = true;
+            // 
+            // rbFemenino
+            // 
+            resources.ApplyResources(this.rbFemenino, "rbFemenino");
+            this.rbFemenino.Name = "rbFemenino";
+            this.rbFemenino.TabStop = true;
+            this.rbFemenino.UseVisualStyleBackColor = true;
+            // 
+            // rbMasculino
+            // 
+            resources.ApplyResources(this.rbMasculino, "rbMasculino");
+            this.rbMasculino.Name = "rbMasculino";
+            this.rbMasculino.TabStop = true;
+            this.rbMasculino.UseVisualStyleBackColor = true;
+            // 
+            // txtCorreo
+            // 
+            resources.ApplyResources(this.txtCorreo, "txtCorreo");
+            this.txtCorreo.Name = "txtCorreo";
+            // 
+            // txtDireccion
+            // 
+            resources.ApplyResources(this.txtDireccion, "txtDireccion");
+            this.txtDireccion.Name = "txtDireccion";
+            // 
+            // txtNombre
+            // 
+            resources.ApplyResources(this.txtNombre, "txtNombre");
+            this.txtNombre.Name = "txtNombre";
+            // 
+            // lblCorreo
+            // 
+            resources.ApplyResources(this.lblCorreo, "lblCorreo");
+            this.lblCorreo.Name = "lblCorreo";
+            // 
+            // lblDireccion
+            // 
+            resources.ApplyResources(this.lblDireccion, "lblDireccion");
+            this.lblDireccion.Name = "lblDireccion";
+            // 
+            // lblNombre
+            // 
+            resources.ApplyResources(this.lblNombre, "lblNombre");
+            this.lblNombre.Name = "lblNombre";
             // 
             // tpPreferencias
             // 
@@ -117,55 +206,33 @@
             this.tpPreferencias.Name = "tpPreferencias";
             this.tpPreferencias.UseVisualStyleBackColor = true;
             // 
-            // btnGuardar
+            // nUDValoracion
             // 
-            resources.ApplyResources(this.btnGuardar, "btnGuardar");
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            resources.ApplyResources(this.nUDValoracion, "nUDValoracion");
+            this.nUDValoracion.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.nUDValoracion.Name = "nUDValoracion";
+            this.nUDValoracion.ValueChanged += new System.EventHandler(this.nUDValoracion_ValueChanged);
             // 
-            // btnLimpiar
+            // lblSatisfaccion
             // 
-            resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.lblSatisfaccion, "lblSatisfaccion");
+            this.lblSatisfaccion.Name = "lblSatisfaccion";
             // 
-            // btnSalir
+            // tb_Valoracion
             // 
-            resources.ApplyResources(this.btnSalir, "btnSalir");
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.tb_Valoracion.LargeChange = 1;
+            resources.ApplyResources(this.tb_Valoracion, "tb_Valoracion");
+            this.tb_Valoracion.Name = "tb_Valoracion";
+            this.tb_Valoracion.Scroll += new System.EventHandler(this.tb_Valoracion_Scroll);
             // 
-            // chBoletin
+            // lblPais
             // 
-            resources.ApplyResources(this.chBoletin, "chBoletin");
-            this.chBoletin.Name = "chBoletin";
-            this.chBoletin.UseVisualStyleBackColor = true;
-            // 
-            // chlistHobbies
-            // 
-            this.chlistHobbies.CheckOnClick = true;
-            this.chlistHobbies.FormattingEnabled = true;
-            this.chlistHobbies.Items.AddRange(new object[] {
-            resources.GetString("chlistHobbies.Items"),
-            resources.GetString("chlistHobbies.Items1"),
-            resources.GetString("chlistHobbies.Items2"),
-            resources.GetString("chlistHobbies.Items3"),
-            resources.GetString("chlistHobbies.Items4"),
-            resources.GetString("chlistHobbies.Items5"),
-            resources.GetString("chlistHobbies.Items6"),
-            resources.GetString("chlistHobbies.Items7"),
-            resources.GetString("chlistHobbies.Items8"),
-            resources.GetString("chlistHobbies.Items9"),
-            resources.GetString("chlistHobbies.Items10")});
-            resources.ApplyResources(this.chlistHobbies, "chlistHobbies");
-            this.chlistHobbies.Name = "chlistHobbies";
-            // 
-            // lblHobbies
-            // 
-            resources.ApplyResources(this.lblHobbies, "lblHobbies");
-            this.lblHobbies.Name = "lblHobbies";
+            resources.ApplyResources(this.lblPais, "lblPais");
+            this.lblPais.Name = "lblPais";
             // 
             // cbPais
             // 
@@ -237,33 +304,35 @@
             resources.ApplyResources(this.cbPais, "cbPais");
             this.cbPais.Name = "cbPais";
             // 
-            // lblPais
+            // lblHobbies
             // 
-            resources.ApplyResources(this.lblPais, "lblPais");
-            this.lblPais.Name = "lblPais";
+            resources.ApplyResources(this.lblHobbies, "lblHobbies");
+            this.lblHobbies.Name = "lblHobbies";
             // 
-            // tb_Valoracion
+            // chlistHobbies
             // 
-            this.tb_Valoracion.LargeChange = 1;
-            resources.ApplyResources(this.tb_Valoracion, "tb_Valoracion");
-            this.tb_Valoracion.Name = "tb_Valoracion";
-            this.tb_Valoracion.Scroll += new System.EventHandler(this.tb_Valoracion_Scroll);
+            this.chlistHobbies.CheckOnClick = true;
+            this.chlistHobbies.FormattingEnabled = true;
+            this.chlistHobbies.Items.AddRange(new object[] {
+            resources.GetString("chlistHobbies.Items"),
+            resources.GetString("chlistHobbies.Items1"),
+            resources.GetString("chlistHobbies.Items2"),
+            resources.GetString("chlistHobbies.Items3"),
+            resources.GetString("chlistHobbies.Items4"),
+            resources.GetString("chlistHobbies.Items5"),
+            resources.GetString("chlistHobbies.Items6"),
+            resources.GetString("chlistHobbies.Items7"),
+            resources.GetString("chlistHobbies.Items8"),
+            resources.GetString("chlistHobbies.Items9"),
+            resources.GetString("chlistHobbies.Items10")});
+            resources.ApplyResources(this.chlistHobbies, "chlistHobbies");
+            this.chlistHobbies.Name = "chlistHobbies";
             // 
-            // lblSatisfaccion
+            // chBoletin
             // 
-            resources.ApplyResources(this.lblSatisfaccion, "lblSatisfaccion");
-            this.lblSatisfaccion.Name = "lblSatisfaccion";
-            // 
-            // nUDValoracion
-            // 
-            resources.ApplyResources(this.nUDValoracion, "nUDValoracion");
-            this.nUDValoracion.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.nUDValoracion.Name = "nUDValoracion";
-            this.nUDValoracion.ValueChanged += new System.EventHandler(this.nUDValoracion_ValueChanged);
+            resources.ApplyResources(this.chBoletin, "chBoletin");
+            this.chBoletin.Name = "chBoletin";
+            this.chBoletin.UseVisualStyleBackColor = true;
             // 
             // tpVisualizacion
             // 
@@ -273,94 +342,10 @@
             this.tpVisualizacion.Name = "tpVisualizacion";
             this.tpVisualizacion.UseVisualStyleBackColor = true;
             // 
-            // lblNombre
+            // lblHora
             // 
-            resources.ApplyResources(this.lblNombre, "lblNombre");
-            this.lblNombre.Name = "lblNombre";
-            // 
-            // lblDireccion
-            // 
-            resources.ApplyResources(this.lblDireccion, "lblDireccion");
-            this.lblDireccion.Name = "lblDireccion";
-            // 
-            // lblCorreo
-            // 
-            resources.ApplyResources(this.lblCorreo, "lblCorreo");
-            this.lblCorreo.Name = "lblCorreo";
-            // 
-            // txtNombre
-            // 
-            resources.ApplyResources(this.txtNombre, "txtNombre");
-            this.txtNombre.Name = "txtNombre";
-            // 
-            // txtDireccion
-            // 
-            resources.ApplyResources(this.txtDireccion, "txtDireccion");
-            this.txtDireccion.Name = "txtDireccion";
-            // 
-            // txtCorreo
-            // 
-            resources.ApplyResources(this.txtCorreo, "txtCorreo");
-            this.txtCorreo.Name = "txtCorreo";
-            // 
-            // pnGenero
-            // 
-            this.pnGenero.Controls.Add(this.rbOtro);
-            this.pnGenero.Controls.Add(this.rbFemenino);
-            this.pnGenero.Controls.Add(this.rbMasculino);
-            resources.ApplyResources(this.pnGenero, "pnGenero");
-            this.pnGenero.Name = "pnGenero";
-            // 
-            // rbMasculino
-            // 
-            resources.ApplyResources(this.rbMasculino, "rbMasculino");
-            this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.TabStop = true;
-            this.rbMasculino.UseVisualStyleBackColor = true;
-            // 
-            // rbFemenino
-            // 
-            resources.ApplyResources(this.rbFemenino, "rbFemenino");
-            this.rbFemenino.Name = "rbFemenino";
-            this.rbFemenino.TabStop = true;
-            this.rbFemenino.UseVisualStyleBackColor = true;
-            // 
-            // rbOtro
-            // 
-            resources.ApplyResources(this.rbOtro, "rbOtro");
-            this.rbOtro.Name = "rbOtro";
-            this.rbOtro.TabStop = true;
-            this.rbOtro.UseVisualStyleBackColor = true;
-            // 
-            // lblGenero
-            // 
-            resources.ApplyResources(this.lblGenero, "lblGenero");
-            this.lblGenero.Name = "lblGenero";
-            // 
-            // mcNacimiento
-            // 
-            resources.ApplyResources(this.mcNacimiento, "mcNacimiento");
-            this.mcNacimiento.Name = "mcNacimiento";
-            // 
-            // lblNacimiento
-            // 
-            resources.ApplyResources(this.lblNacimiento, "lblNacimiento");
-            this.lblNacimiento.Name = "lblNacimiento";
-            // 
-            // numericUpDown1
-            // 
-            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            150,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            // 
-            // lblEdad
-            // 
-            resources.ApplyResources(this.lblEdad, "lblEdad");
-            this.lblEdad.Name = "lblEdad";
+            resources.ApplyResources(this.lblHora, "lblHora");
+            this.lblHora.Name = "lblHora";
             // 
             // pbImage
             // 
@@ -368,16 +353,32 @@
             this.pbImage.Name = "pbImage";
             this.pbImage.TabStop = false;
             // 
+            // btnGuardar
+            // 
+            resources.ApplyResources(this.btnGuardar, "btnGuardar");
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnLimpiar
+            // 
+            resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnSalir
+            // 
+            resources.ApplyResources(this.btnSalir, "btnSalir");
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // tmrHora
             // 
             this.tmrHora.Enabled = true;
             this.tmrHora.Interval = 1000;
             this.tmrHora.Tick += new System.EventHandler(this.tmrHora_Tick);
-            // 
-            // lblHora
-            // 
-            resources.ApplyResources(this.lblHora, "lblHora");
-            this.lblHora.Name = "lblHora";
             // 
             // formBase
             // 
@@ -394,15 +395,15 @@
             this.tcMatriz.ResumeLayout(false);
             this.tpDatosPersonales.ResumeLayout(false);
             this.tpDatosPersonales.PerformLayout();
-            this.tpPreferencias.ResumeLayout(false);
-            this.tpPreferencias.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).EndInit();
-            this.tpVisualizacion.ResumeLayout(false);
-            this.tpVisualizacion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDedad)).EndInit();
             this.pnGenero.ResumeLayout(false);
             this.pnGenero.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.tpPreferencias.ResumeLayout(false);
+            this.tpPreferencias.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDValoracion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tb_Valoracion)).EndInit();
+            this.tpVisualizacion.ResumeLayout(false);
+            this.tpVisualizacion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
 
@@ -438,7 +439,7 @@
         private System.Windows.Forms.Label lblNacimiento;
         private System.Windows.Forms.MonthCalendar mcNacimiento;
         private System.Windows.Forms.Label lblGenero;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nUDedad;
         private System.Windows.Forms.Label lblEdad;
         private System.Windows.Forms.PictureBox pbImage;
         private System.Windows.Forms.Timer tmrHora;
